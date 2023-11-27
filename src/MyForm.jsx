@@ -1,8 +1,6 @@
 import React from 'react';
 import { useFormik } from 'formik';
 import axios from 'axios';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 
 const MyForm = () => {
     const formik = useFormik({
