@@ -9,7 +9,7 @@ const MyForm = () => {
             lastName: '',
             mobile: '',
             email: '',
-        },
+        }, 
         validate: (values) => {
             const errors = {};
 
